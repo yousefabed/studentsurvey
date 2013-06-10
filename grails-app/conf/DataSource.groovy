@@ -25,10 +25,10 @@ environments {
     }
     production {
        dataSource {
-	        dbCreate = "update"
+        dbCreate = "update"
 	        driverClassName = "org.postgresql.Driver"
 	        dialect = org.hibernate.dialect.PostgreSQLDialect
-	        uri = new URI("postgres://ylcqwrzyuphyzl:XPpuJQQYfmtbh2i2nAePaz2geq@ec2-107-20-215-249.compute-1.amazonaws.com:5432/d7elk1dhmlkvk7")
+	        uri = new URI("postgres://pllhwqtinkqdme:I3sLMdIPDriJR5DpYTlmsOFbqo@ec2-23-21-129-229.compute-1.amazonaws.com:5432/d2mhu1ip442st6")
 	
 	        url = "jdbc:postgresql://"+uri.host+uri.path
 	        username = uri.userInfo.split(":")[0]
